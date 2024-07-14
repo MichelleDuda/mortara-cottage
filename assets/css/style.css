@@ -4,12 +4,12 @@
 /* Asterisk wildcard selector to override default styles by the browser */
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 /* General Styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,8 @@ h1 {
     color: #252525;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -62,7 +63,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block; 
+    display: block;
 }
 
 #nav-toggle {
@@ -92,20 +93,36 @@ main {
     height: 600px;
     width: 100%;
     position: relative;
-    }
+}
 
-    #hero-cover-text {
-        /* final rgba value sets the opacity so it is semi-transparent */
-        background-color: rgba(90, 79, 15, 0.7);
-        font-size: 130%;
-        position: absolute;
-        bottom: 30px;
-        width: 80%;
-        min-height: 200px;
-        padding-top: 40px;
-        padding-left: 10px;
-    }
+#hero-cover-text {
+    /* final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(90, 79, 15, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
-    #hero-cover-text >h2, #hero-cover-text> h3 {
-        color: #ffffff;
-    }
+#hero-cover-text>h2,
+#hero-cover-text>h3 {
+    color: #ffffff;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
