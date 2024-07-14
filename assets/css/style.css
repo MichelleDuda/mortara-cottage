@@ -162,4 +162,26 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+    /* Main Content */
+
+    /* Hero */
+    #hero-cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
+
+    /* Property Details */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
+
+/* Media query: Larger devices - laptops & desktops (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Property Details */
+    #photos {
+        column-count: 4;
+    }
