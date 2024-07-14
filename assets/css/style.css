@@ -94,7 +94,7 @@ main {
 
 /* Hero Styles */
 #hero {
-    background: url('../images/hero-image.jpg') no-repeat center center / cover;
+    background: url('../images/hero-image.webp') no-repeat center center / cover;
     height: 600px;
     width: 100%;
     position: relative;
