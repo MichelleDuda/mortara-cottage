@@ -90,6 +90,8 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* Hero Styles */
@@ -124,6 +126,23 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Booking Form */
+#booking {
+    background: url('../images/form-image.webp') 75% / cover;
+    padding: 10%;
+    flex-grow: 1;
+}
+
+#booking-form {
+    color: #ffffff;
+    background-color: rgba(90, 79, 15, 0.7);
+    padding: 30px;
+}
+
+#booking-form h2 {
+    color: #ffffff;
 }
 
 /* Footer */
